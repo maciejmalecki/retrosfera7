@@ -8,7 +8,8 @@
 
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css">
+		<link rel="stylesheet" href="dist/theme/night.css">
+		<link rel="stylesheet" href="css/custom.css">
 
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="plugin/highlight/monokai.css">
@@ -16,8 +17,66 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section data-markdown data-separator-vertical="^--$">
+					<script type="text/template">
+						# Title
+
+						Retrosfera vol 7
+						---
+						# About me
+						---
+						![Chart 1](img/lemon-chart-normal.png)<!-- .element class="img-reduce"-->
+
+						Liczba wydanych gier dla C64 wg Lemon64.com<!-- .element class="fragment"-->
+						--
+						![Chart 2](img/lemon-chart-log.png)<!-- .element class="img-reduce"-->
+						---
+						Skąd wzięły się<!-- .element class="r-fit-text"-->
+
+						pierwsze gry na C64?<!-- .element class="r-fit-text"-->
+						--
+						<div class="r-hstack gap1">
+							<img src="img/commodore-on-the-edge.png" alt="Company on the edge">
+							<ul class="no-ticks">
+								<li>Brian Bagnall</li>
+								<li><em>Commodore: a company on the edge</em></li>
+								<li>4 tomy</li>
+								<li>koniecznie przeczytać</li>
+								<li>(jeśli ktoś jeszcze nie zna)</li>
+							</ul>
+						</div>
+						--
+						hal
+						--
+						games for VIC 20
+						--
+						games for C64 from hal
+						--
+						games for C64 from Commodore
+						---
+						breakthrough games in mainstream
+						---
+						CP Verlag, późne gry, polskie gry
+						---
+						SEUCK
+						---
+						Powstanie rynku indie
+						---
+						Cadaver
+						--
+						Richard Bayliss
+						--
+						PET games
+						---
+						Cross development
+						--
+						Co to jest
+						--
+						Mój warsztat
+						--
+						A jak było kiedyś?
+					</script>
+				</section>
 			</div>
 		</div>
 
@@ -31,6 +90,10 @@
 			// - https://revealjs.com/config/
 			Reveal.initialize({
 				hash: true,
+				width: 1200,
+				height: 700,
+				slideNumber: 'c/t',
+				autoPlayMedia: true,
 
 				// Learn about plugins: https://revealjs.com/plugins/
 				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
