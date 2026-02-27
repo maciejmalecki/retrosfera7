@@ -4,5 +4,8 @@
         "exportScale": 1,
         "exportWithBackground": false,
         "exportWithDarkMode": true
-    }
+    },
+    "github.copilot.chat.pullRequestDescriptionGeneration.instructions": [
+        
+    ]
 }
